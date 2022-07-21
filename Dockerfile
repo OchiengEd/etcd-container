@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
 
-ARG ETCD_VERSION=v3.5.1
+ARG ETCD_VERSION=v3.4.19
 LABEL name=etcd \
       vendor='Etcd community' \
       version=${ETCD_VERSION} \
